@@ -1,25 +1,50 @@
-GitHub Actions CI/CD Workflow Output
-====================================
-Workflow: CI/CD Pipeline
-Run: #3
-Status: success
+Command:
+gh run view 40189788378 --verbose
 
-Job: Build and Test
-Job Status: completed
-Job Conclusion: success
+✓ main CI/CD Pipeline · 40189788378
+Triggered via push
 
-1. Set up job - success
-2. Checkout repository - success
-3. Set up Python - success
-4. Install Python dependencies - success
-5. Run Django migrations - success
-6. Django system check - success
-7. Run Django tests - success
-8. Set up Node.js - success
-9. Install frontend dependencies - success
-10. Build React frontend - success
-11. Validate deployment files - success
-20. Post Set up Node.js - success
-21. Post Set up Python - success
-22. Post Checkout repository - success
-23. Complete job - success
+JOBS
+
+✓ Lint Python Files in 9s (ID 121158134886)
+  ✓ Set up job
+  ✓ Checkout Repository
+  ✓ Set up Python
+  ✓ Install dependencies
+  ✓ Print working directory
+  ✓ Run Linter
+  ✓ Post Set up Python
+  ✓ Post Checkout Repository
+  ✓ Complete job
+
+✓ Lint JavaScript Files in 33s (ID 121158134895)
+  ✓ Set up job
+  ✓ Checkout Repository
+  ✓ Install Node.js
+  ✓ Install JSHint
+  ✓ Install dependencies
+  ✓ Print working directory
+  ✓ Run Linter
+  ✓ Post Install Node.js
+  ✓ Post Checkout Repository
+  ✓ Complete job
+
+✓ Build and Test in 45s (ID 121158134722)
+  ✓ Set up job
+  ✓ Checkout repository
+  ✓ Set up Python
+  ✓ Install Python dependencies
+  ✓ Run Django migrations
+  ✓ Django system check
+  ✓ Run Django tests
+  ✓ Set up Node.js
+  ✓ Install frontend dependencies
+  ✓ Build React frontend
+  ✓ Validate deployment files
+  ✓ Post Set up Node.js
+  ✓ Post Set up Python
+  ✓ Post Checkout repository
+  ✓ Complete job
+
+Run status: success
+Workflow conclusion: success
