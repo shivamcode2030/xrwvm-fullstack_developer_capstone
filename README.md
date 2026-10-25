@@ -1,5 +1,11 @@
 # Car Dealership Full-Stack Application
 
+## Repository Name
+xrwvm-fullstack_developer_capstone
+
+## Project Name
+Car Dealership Full-Stack Application
+
 ## Project Description
 A full-stack car dealership application built using Django, React, and REST APIs.
 
