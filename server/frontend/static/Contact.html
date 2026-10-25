@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us - Car Dealerships</title>
+
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+
+    <style>
+        body {
+            background: #f4f7fb;
+        }
+
+        .contact-header {
+            background: linear-gradient(135deg, #0d6efd, #084298);
+            color: white;
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        .contact-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+        }
+
+        .contact-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="/">Car Dealerships</a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/static/About.html">
+                        About Us
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="/static/Contact.html">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="contact-header">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p class="lead mb-0">
+            We are happy to help you with your dealership and vehicle queries.
+        </p>
+    </div>
+</section>
+
+<div class="container py-5">
+
+    <div class="row g-4">
+
+        <div class="col-lg-7">
+            <div class="contact-card">
+
+                <h2 class="mb-4">Get in Touch</h2>
+
+                <p>
+                    Our team is available to answer questions about dealerships,
+                    vehicles, reviews and the services provided through our platform.
+                </p>
+
+                <hr>
+
+                <p>
+                    <strong>Address:</strong><br>
+                    123 Main Street, Chicago, Illinois, 60601, USA
+                </p>
+
+                <p>
+                    <strong>Phone:</strong><br>
+                    +1-312-555-0188
+                </p>
+
+                <p>
+                    <strong>Email:</strong><br>
+                    support@cardealerships.example
+                </p>
+
+                <p>
+                    <strong>Working Hours:</strong><br>
+                    Monday - Friday: 9:00 AM - 6:00 PM
+                </p>
+
+                <p>
+                    <strong>Customer Support:</strong><br>
+                    Available for dealership information, reviews and account assistance.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+
+            <div class="contact-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=80"
+                    class="contact-image"
+                    alt="Cars in dealership">
+
+                <h3 class="mt-4">Visit Our Dealership Network</h3>
+
+                <p>
+                    Explore dealerships across different states and find the
+                    right place for your next vehicle.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="/static/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
