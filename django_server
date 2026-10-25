@@ -1,3 +1,7 @@
+Command:
+python3 manage.py runserver
+
+Output:
 Performing system checks...
 
 System check identified no issues (0 silenced).
