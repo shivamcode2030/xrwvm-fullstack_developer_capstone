@@ -1,5 +1,5 @@
 Command:
-curl -X POST http://localhost:8000/api/login/ -H "Content-Type: application/json" -d '{"userName":"testuser","password":"testpass123"}' -c cookies.txt
+curl -X POST http://localhost:8000/djangoapp/login -H "Content-Type: application/json" -d '{"userName":"testuser","password":"testpass123"}' -c cookies.txt
 
 Output:
-{"userName": "testuser", "status": "Authenticated"}
+{"userName":"testuser","status":"Authenticated"}
