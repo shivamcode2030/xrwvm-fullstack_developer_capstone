@@ -1,0 +1,5 @@
+Command:
+curl -X GET http://localhost:8000/fetchDealers/Kansas
+
+Output:
+[{"id": 2, "_id": 2, "name": "Elite Auto Sales", "address": "456 Oak Avenue", "city": "Kansas City", "state": "Kansas", "zip": "66101", "phone": "(913) 555-0200", "email": "sales@eliteauto.com", "website": "https://www.eliteauto.com", "short_desc": "Premium vehicles and exceptional service", "full_desc": "Elite Auto Sales specializes in premium vehicles with a focus on customer satisfaction."}, {"id": 3, "_id": 3, "name": "Quality Cars", "address": "789 Pine Road", "city": "Wichita", "state": "Kansas", "zip": "67202", "phone": "(316) 555-0300", "email": "contact@qualitycars.com", "website": "https://www.qualitycars.com", "short_desc": "Quality vehicles at affordable prices", "full_desc": "Quality Cars provides dependable vehicles at prices designed to fit different budgets."}]

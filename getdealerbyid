@@ -1,0 +1,5 @@
+Command:
+curl -X GET http://localhost:8000/fetchDealer/1
+
+Output:
+{"id": 1, "_id": 1, "name": "Best Motors Inc", "address": "123 Main Street", "city": "Boston", "state": "Massachusetts", "zip": "02101", "phone": "(617) 555-0100", "email": "info@bestmotors.com", "website": "https://www.bestmotors.com", "short_desc": "Your trusted car dealer in Boston", "full_desc": "Best Motors Inc has been serving the Boston area with quality vehicles and excellent customer service."}

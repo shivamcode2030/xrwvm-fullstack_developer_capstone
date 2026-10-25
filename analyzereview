@@ -1,0 +1,5 @@
+Command:
+curl -X GET "http://localhost:8000/analyze/Fantastic%20services"
+
+Output:
+{"sentiment": "positive"}
