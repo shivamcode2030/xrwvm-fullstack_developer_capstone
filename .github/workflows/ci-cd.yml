@@ -14,9 +14,6 @@ jobs:
     name: Lint Python Files
     runs-on: ubuntu-latest
     steps:
-      - name: Set up job
-        run: echo "Starting Python lint job"
-
       - name: Checkout Repository
         uses: actions/checkout@v4
 
@@ -40,9 +37,6 @@ jobs:
     name: Lint JavaScript Files
     runs-on: ubuntu-latest
     steps:
-      - name: Set up job
-        run: echo "Starting JavaScript lint job"
-
       - name: Checkout Repository
         uses: actions/checkout@v4
 
@@ -57,6 +51,9 @@ jobs:
       - name: Install dependencies
         working-directory: server/frontend
         run: npm ci
+
+      - name: Print working directory
+        run: pwd
 
       - name: Run Linter
         run: jshint server/frontend/src || true
